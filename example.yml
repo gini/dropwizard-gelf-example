@@ -49,6 +49,12 @@ server:
       keyStorePath: example.keystore
       keyStorePassword: example
       validateCerts: false
+  requestLog:
+    appenders:
+      - type: console
+      - type: gelf
+        host: localhost
+        includeFullMDC: true
 
 # Logging settings.
 logging:
@@ -66,3 +72,6 @@ logging:
 
   appenders:
     - type: console
+    - type: gelf
+      host: localhost
+      includeFullMDC: true
