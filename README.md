@@ -1,4 +1,4 @@
-# Introduction
+# Introduction [![Build Status](https://travis-ci.org/gini/dropwizard-gelf-example.svg?branch=master)](https://travis-ci.org/gini/dropwizard-gelf-example)
 
 The drop wizard example application was developed to, as its name implies, provide examples of some of the features
 present in drop wizard.
